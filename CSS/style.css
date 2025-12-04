@@ -4,9 +4,9 @@
 
 .wireframe {
     display: flex;
-    flex-flow: column wrap;
- align-content: center;
-align-items: center;
+    flex-direction: column;
+ 
+
 
 }
 
@@ -23,8 +23,8 @@ article, header,aside,footer {
 
 article {
     background-color: blue;
-    width: 400px;
-    height: 100px;
+    
+    
     margin: 20px;
     
     
@@ -33,18 +33,18 @@ article {
 
 header {
     background-color: pink;
-    width: 500px;
+    
     margin: 10px;
 }
 
 footer {
     background-color: blueviolet;
-     width: 500px;
+     
      margin: 10px;
 }
 
 aside {
     background-color: orangered;
-     width: 500px;
+     
      margin: 10px;
 }
