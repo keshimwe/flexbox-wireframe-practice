@@ -1,0 +1,50 @@
+* {
+     box-sizing: border-box;
+}
+
+.wireframe {
+    display: flex;
+    flex-flow: column wrap;
+ align-content: center;
+align-items: center;
+
+}
+
+main{
+    background-color: aqua;
+    
+}
+
+article, header,aside,footer {
+    border: 1px solid black;
+    padding: 1rem;
+    
+}
+
+article {
+    background-color: blue;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    
+    
+}
+
+
+header {
+    background-color: pink;
+    width: 500px;
+    margin: 10px;
+}
+
+footer {
+    background-color: blueviolet;
+     width: 500px;
+     margin: 10px;
+}
+
+aside {
+    background-color: orangered;
+     width: 500px;
+     margin: 10px;
+}
